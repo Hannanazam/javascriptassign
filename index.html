@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript assign 01-60</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+
+   <!--  <div>
+        <h3>Chapter no 49-52</h3>
+    </div>
+    <h2>Task no 1-2</h2>
+
+    <h1>Mobile Phone lookup</h1>
+
+
+    <div class="images">
+
+    <img onclick="popup()" src="images/d1.jpg" alt="">
+    <img onclick="popup()" src="images/d2.jpg" alt="">
+    <img onclick="popup()"src="images/d3.jpg" alt="">
+    <img onclick="popup()" src="images/d4.jpg" alt="">
+
+    </div>
+    <hr>
+
+    <div>
+      
+        <div class="inp">
+        <h2>Task no 3</h2>
+        <p>
+        Your Name:<input type="text" name="studentName" id="Name">
+    </p><br>
+        <p>
+        Your Class:<input type="number" name="studentClass" id="Class">
+    </p><br>
+        <button onclick="addRecordss()">Add</button>
+    </div>
+
+
+    <div class="records" id="records">
+        <table>
+            <tr >
+                <td class="trr" id="index">Index</td>
+                <td class="trr" id="name1">Name</td>
+                <td class="trr" id="class1">Class</td>
+                <td class="trr" id="class1"></td>
+            </tr>
+            <tr  id="tr">
+                <td class="trr"  id="index2">1</td>
+                <td class="trr" id="name2"></td>
+                <td class="trr" id="class2"></td>
+                <td class="trr" id="delete"><button onclick="deleted()" id="delete">Delete</button></td>
+            </tr>
+        </table>
+
+    </div>
+    </div>
+    <hr>
+
+    <div class="div1">
+        <h2>Task no 4</h2>
+    <img id="image" class="image" src="images/d1.jpg" onmouseover="mouseOu()" onmouseout="mouseO()" alt="">
+</div>
+
+
+<hr>
+<div class="increase">
+    <h2>Task no 5</h2>
+    <h1 class="h1" id="inccc">0</h1>
+    <button class="btnn" id="disable" onclick="increaseBtn()">Increase</button>
+    <button class="btnn" id="disable1" onclick="decreaseBtn()">Decrease</button>
+    <button class="btnn" id="disable2" onclick="stop()">Stop</button>
+</div>
+
+
+
+
+
+<br><br><br>
+<div>
+    <div>
+        <h3>Chapter no 49-52</h3>
+    </div>
+    <h2>Task no 1</h2>
+    <div class="display">
+        Username:<p id="username1"> </p>
+        Email:<p id="email1"> </p>
+        Password:<p id="password1"> </p>
+    </div>
+    <div class="inp">
+          <p>
+        Username:
+        <input type="text" name="" id="username">
+    </p>
+        <p>
+        Email:
+        <input type="email" name="" id="email">
+    </p>
+<p>
+        Password:
+        <input type="password" name="" id="password"></p>
+
+        <button onclick="deploo()">Submit</button>
+
+    </div>
+</div>
+
+
+
+
+
+<h2>Task no 2</h2>
+
+<div>
+    <p id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Consectetur culpa rem tenetur  <a href="javascript:void(0);" onclick="readMore()">readmore</a>
+    </p>
+</div>
+
+
+
+<div>
+    <h3>Chapter no 52-57</h3>
+</div>
+<h2>Task no 1</h2>
+<div class="modal1">
+    <img data-toggle="modal" data-target="#exampleModal" onclick="showImage(this)" src="images/m1.jpg" alt="">
+    <img data-toggle="modal" data-target="#exampleModal" onclick="showImage(this)" src="images/m2.jpg" alt="">
+    <img data-toggle="modal" data-target="#exampleModal" onclick="showImage(this)" src="images/m3.jpg" alt="">
+    <img data-toggle="modal" data-target="#exampleModal" onclick="showImage(this)" src="images/m4.jpg" alt="">
+    <img data-toggle="modal" data-target="#exampleModal" onclick="showImage(this)" src="images/m5.jpg" alt="">
+    <img data-toggle="modal" data-target="#exampleModal" onclick="showImage(this)" src="images/m6.jpg" alt="">
+    <img data-toggle="modal" data-target="#exampleModal" onclick="showImage(this)" src="images/m7.jpg" alt="">
+</div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img id="modalImage" src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div>
+    <h3>Chapter no 58-67</h3>
+</div>
+
+
+  <div> 
+      <h1> DOM </h1> 
+      <div id=”form-content” class=”content”>
+           <label for=”first-name”>First Name</label> 
+           <input type=”text” id=”first-name” /> 
+           <label for=”last-name”>Last Name</label>
+            <input type=”text” id=”last-name” /> 
+            <label for=”email”>Email</label>
+             <input type=”text” id=”email” /> 
+            </div> 
+            <div id=”main-content” class=”content”>
+                 <p class=”render”> First Name : Alex</p> 
+                 <p class=”render” id=”lastName”>Last Name: Bank</p>
+                  <p class=”render”> Email : alexbank@example.com</p>
+                   <p class=”render”> Country : Pakistan </p> 
+                   <p class=”render”> contact : +92 300 1234567</p> 
+                </div>
+             </div>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+</html>
